@@ -1,25 +1,23 @@
-
 function main(){
-var input = document.getElementById("inputColor");
+var input = document.getElementById("inputcolor");
   var color = input.value;
-var toLowerCase = color.toLocaleLowerCase();
+var lowerColorName = color.toLowerCase();
 // GrÜn Grün GRÜN GrüN grün = immer grün
 
-if (lowerColorName == "grün"){
-  alert("du darfst fahren");
-
+if(lowerColorName == "grün"){
+  alert("du darfst fahren")
 }
 
 else if(lowerColorName == "orange"){
-  alert("Du darfst anfahren oder musst bremsen");
+  alert("Du darfst anfahren oder musst bremsen")
 }
 
 else if(lowerColorName == "rot"){
-  alert("Du musst bremsen");
+  alert("Du musst bremsen")
 }
 
 else{
- alert("keine gültige Ampel-farbe eingetragen");
+ alert("keine gültige Ampel-farbe eingetragen")
 }
 }
 //wenn grün dann fahren
